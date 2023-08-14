@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 1023px;
+    text-decoration: none;
+}
+
+.portfolioHeader {
+    background: linear-gradient(0.25turn, #804600, #cf8d3c, #804600);
+    height: 100px;
+    font-family: 'TF2 Build';
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.nav-links {
+    color: rgb(224, 221, 218);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav-links:hover {
+    transition: 0.3s;
+    color: white;
+}
+
+.photoMe {
+    transition: .2s;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: #000;
+}
+
+.photoMe:hover {
+    transform: scale(1.02);
+}
+
+.center {
+    background-image: url(img/centerTexture.png);
+    background-repeat: repeat-y;
+    width: 1084px;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 30px;
+    font-size: 32px;
+    color: whitesmoke;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    text-align: center;
+}
+
+.cupKaizo {
+    max-width: 100%;
+    width: 60%;
+    display: block;
+    margin: auto;
+    left: 50px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.weapons {
+    max-width: 100%;
+    width: 40%;
+    display: block;
+    margin: auto;
+    left: 50px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.logos1 {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    max-width: 100%;
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+.ratings1 {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logos2 {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ratings2 {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logos3 {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ratings3 {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.portfolioFooter {
+    background: linear-gradient(0.25turn, #804600, #cf8d3c, #804600);
+    height: 50px;
+    font-family: 'TF2 Build';
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
